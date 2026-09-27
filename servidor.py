@@ -20,3 +20,10 @@ conexao.send("Olá! Mensagem recebida pelo servidor.".encode())
 
 conexao.close()
 servidor.close()
+
+
+
+Resultado do terminal:
+Servidor aguardando conexão... | Cliente conectado: ('127.0.0.1', 54321) | Mensagem recebida: Olá servidor! Sou o cliente. | Resposta do servidor: Olá! Mensagem recebida pelo servidor.
+Servidor aguardando conexão... Cliente conectado: ('127.0.0.1', 54321) Mensagem recebida: Olá servidor! Sou o cliente.
+Resposta do servidor: Olá! Mensagem recebida pelo servidor.
